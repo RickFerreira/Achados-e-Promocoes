@@ -58,12 +58,125 @@ document.addEventListener('DOMContentLoaded', function () {
                 "imagem": "./assets/img/masculino/9.png"
             }
         ],
-        // Adicione outras categorias se necessário
+        "Todos": [
+            {
+                "nome": "Camisa xadrez manga longa",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/1.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/2.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/3.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/4.png"
+            },
+            {
+                "nome": "Camisa xadrez manga longa",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/5.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/6.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/8.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/9.png"
+            },
+            {
+                "nome": "Camisa xadrez manga longa",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/1.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/2.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/3.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/4.png"
+            },
+            {
+                "nome": "Camisa xadrez manga longa",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/5.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/6.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/8.png"
+            },
+            {
+                "nome": "Camisa branca",
+                "precoOriginal": "59.90",
+                "precoAtual": "39.90",
+                "categoria": "Camisa masculina",
+                "imagem": "./assets/img/masculino/9.png"
+            }
+        ]
     };
 
-    criarProdutos(dadosProdutos.Principal, 'produtosContainer');
+    criarProdutos(dadosProdutos.Principal, 'produtosContainerPrincipal');
+    criarProdutos(dadosProdutos.Todos, 'produtosContainerTodos');
 
-    // Você pode adicionar mais lógica aqui para outras categorias
 });
 
 function criarProdutos(produtos, containerId) {
